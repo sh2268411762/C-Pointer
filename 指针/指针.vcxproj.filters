@@ -30,6 +30,15 @@
     <ClCompile Include="错误示范.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="按引用传递的冒泡排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeof运算符.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="指针下标和指针偏移量的使用.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="test.h">
