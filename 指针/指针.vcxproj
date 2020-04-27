@@ -138,6 +138,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="sizeof运算符.c" />
+    <ClCompile Include="使用函数指针来创建一个菜单驱动的系统.c" />
     <ClCompile Include="向函数传递实参.c" />
     <ClCompile Include="指向可变数据的可变指针.c" />
     <ClCompile Include="指向常量数据的可变指针.c" />

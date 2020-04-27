@@ -48,6 +48,9 @@
     <ClCompile Include="按升序或降序进行排序.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="使用函数指针来创建一个菜单驱动的系统.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="test.h">
