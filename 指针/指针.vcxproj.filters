@@ -39,6 +39,15 @@
     <ClCompile Include="指针下标和指针偏移量的使用.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="用数组和指针实现字符串的复制.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="模拟扑克牌的洗牌和发牌.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="按升序或降序进行排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="test.h">
