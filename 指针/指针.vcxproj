@@ -145,6 +145,7 @@
     <ClCompile Include="指针.c" />
     <ClCompile Include="指针下标和指针偏移量的使用.c" />
     <ClCompile Include="指针进阶（一）.c" />
+    <ClCompile Include="指针进阶（二）.c" />
     <ClCompile Include="按升序或降序进行排序.c" />
     <ClCompile Include="按引用传递的冒泡排序.c" />
     <ClCompile Include="模拟扑克牌的洗牌和发牌.c" />

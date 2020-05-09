@@ -54,6 +54,9 @@
     <ClCompile Include="指针进阶（一）.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="指针进阶（二）.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="test.h">
