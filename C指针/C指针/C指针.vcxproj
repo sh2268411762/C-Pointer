@@ -18,11 +18,31 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\指针\sizeof运算符.c" />
+    <ClCompile Include="..\..\指针\使用函数指针来创建一个菜单驱动的系统.c" />
+    <ClCompile Include="..\..\指针\向函数传递实参.c" />
+    <ClCompile Include="..\..\指针\指向可变数据的可变指针.c" />
+    <ClCompile Include="..\..\指针\指向常量数据的可变指针.c" />
+    <ClCompile Include="..\..\指针\指针.c" />
+    <ClCompile Include="..\..\指针\指针下标和指针偏移量的使用.c" />
+    <ClCompile Include="..\..\指针\指针进阶二.cpp" />
+    <ClCompile Include="..\..\指针\指针进阶（一）.c" />
+    <ClCompile Include="..\..\指针\指针进阶（二）.c" />
+    <ClCompile Include="..\..\指针\按升序或降序进行排序.c" />
+    <ClCompile Include="..\..\指针\按引用传递的冒泡排序.c" />
+    <ClCompile Include="..\..\指针\模拟扑克牌的洗牌和发牌.c" />
+    <ClCompile Include="..\..\指针\用数组和指针实现字符串的复制.c" />
+    <ClCompile Include="..\..\指针\错误示范.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\指针\test.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c0fae06f-8ea2-408a-8882-062a7e1f9380}</ProjectGuid>
-    <RootNamespace>指针</RootNamespace>
+    <ProjectGuid>{8d105d01-494d-4177-89e9-c769917e2998}</ProjectGuid>
+    <RootNamespace>C指针</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -36,6 +56,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -48,6 +69,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -84,7 +106,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)  _CRT_SECURE_NO_DEPRECATE</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -105,7 +127,7 @@
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -133,29 +155,9 @@
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="sizeof运算符.c" />
-    <ClCompile Include="使用函数指针来创建一个菜单驱动的系统.c" />
-    <ClCompile Include="向函数传递实参.c" />
-    <ClCompile Include="指向可变数据的可变指针.c" />
-    <ClCompile Include="指向常量数据的可变指针.c" />
-    <ClCompile Include="指针.c" />
-    <ClCompile Include="指针下标和指针偏移量的使用.c" />
-    <ClCompile Include="指针进阶二.cpp" />
-    <ClCompile Include="指针进阶（一）.c" />
-    <ClCompile Include="指针进阶（二）.c" />
-    <ClCompile Include="按升序或降序进行排序.c" />
-    <ClCompile Include="按引用传递的冒泡排序.c" />
-    <ClCompile Include="模拟扑克牌的洗牌和发牌.c" />
-    <ClCompile Include="用数组和指针实现字符串的复制.c" />
-    <ClCompile Include="错误示范.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="test.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

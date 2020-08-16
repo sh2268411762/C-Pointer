@@ -3,7 +3,7 @@
   <ItemGroup>
     <Filter Include="源文件">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="头文件">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
@@ -15,54 +15,54 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="指针.c">
+    <ClCompile Include="..\..\指针\sizeof运算符.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="向函数传递实参.c">
+    <ClCompile Include="..\..\指针\按升序或降序进行排序.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="指向可变数据的可变指针.c">
+    <ClCompile Include="..\..\指针\按引用传递的冒泡排序.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="指向常量数据的可变指针.c">
+    <ClCompile Include="..\..\指针\错误示范.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="错误示范.c">
+    <ClCompile Include="..\..\指针\模拟扑克牌的洗牌和发牌.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="按引用传递的冒泡排序.c">
+    <ClCompile Include="..\..\指针\使用函数指针来创建一个菜单驱动的系统.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="sizeof运算符.c">
+    <ClCompile Include="..\..\指针\向函数传递实参.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="指针下标和指针偏移量的使用.c">
+    <ClCompile Include="..\..\指针\用数组和指针实现字符串的复制.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="用数组和指针实现字符串的复制.c">
+    <ClCompile Include="..\..\指针\指向常量数据的可变指针.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="模拟扑克牌的洗牌和发牌.c">
+    <ClCompile Include="..\..\指针\指向可变数据的可变指针.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="按升序或降序进行排序.c">
+    <ClCompile Include="..\..\指针\指针.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="使用函数指针来创建一个菜单驱动的系统.c">
+    <ClCompile Include="..\..\指针\指针进阶（二）.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="指针进阶（一）.c">
+    <ClCompile Include="..\..\指针\指针进阶（一）.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="指针进阶（二）.c">
+    <ClCompile Include="..\..\指针\指针进阶二.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="指针进阶二.cpp">
+    <ClCompile Include="..\..\指针\指针下标和指针偏移量的使用.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="test.h">
+    <ClInclude Include="..\..\指针\test.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
